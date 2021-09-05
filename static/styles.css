@@ -1,0 +1,61 @@
+body {
+    background-color: #2ab7ca;
+    color: #fed766;
+    font-family: Montserrat;
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    width: 20em;
+    height: 20em;
+    background-color: #fe4a49;
+    margin-bottom: 20px;
+    margin-right: 4em;
+}
+#predict-button{
+    margin-left: 2.5em;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    font-size: 24px;
+    background-color:#e70a0a;
+    color:#fed766;
+
+}
+#image-selector{
+   display: none;
+    
+}
+.custom-file-upload{
+    font-weight: bold;
+    margin-left: -450px;
+    background-color: #e70a0a;
+    color: #fed766;
+    font-size: 20px;
+    padding: 12px 10px;
+    border-radius: 3px;
+    
+}
+
+.check-img{
+    width: 10em;
+    height: 10em;
+    border: 3px #fe4a49;
+    border-style:dashed;
+    border-radius: 50%;
+    background-color: #fed766;
+
+}
+#gloat-h3{
+    background-color: #e20f0f;
+    font-size: 24px;
+}
+
+header{
+    background-color: #e20f0f;
+    color:#e5ff00;
+    font-weight: bolder;
+    
+}

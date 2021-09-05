@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>RPCeater</title>
+</head>
+<body>
+    <header>
+        <h1> RPCeater</h1>
+        <h2> Helping Machines Take Over The World</h2>
+        <h2> I am cheating and you know it</h2>
+    </header>
+    <div id="main">
+        
+        <img src="imgs/m (1).png" alt="Your Image Will Be Displayed Here" id="selected-image">
+        <img src="imgs/m.png" alt="My Big Brain Counter Will Be Displayed Here" id="counter-img">
+        <form>
+            <label for="image-selector" class="custom-file-upload">
+                UPLOAD IMAGE
+            </label>
+            <input type="file" id="image-selector">
+            <button type="button" id="predict-button"> SUBMIT</button>
+       
+        </form>
+        
+    </div>
+    <div id="prediction">
+        <h2> Choose The Real Option Whose Image You Posted</h2>
+        <div>
+            <img onclick="seeIfCorrect('Rock')" src="imgs/download.jfif" class="check-img"> 
+            <img onclick="seeIfCorrect('Paper')" src="imgs/download (1).jfif" class="check-img"> 
+            <img onclick="seeIfCorrect('Scissors')" src="imgs/download (2).jfif" class="check-img">
+            <h3 id="gloat-h3">  </h3>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
