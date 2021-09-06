@@ -4,7 +4,7 @@ let classifyImg = document.getElementById("counter-img");
 let gloat = document.getElementById("gloat-h3");
 (async function testModel() {
     console.log("Hello")
-    model = await tf.loadLayersModel("model/model.json");
+    model = await tf.loadLayersModel("my_model/model.json");
     console.log("bye")
 })();
 
